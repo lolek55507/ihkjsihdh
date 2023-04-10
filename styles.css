@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 125, 255);
+}
+#container {
+    margin-top: 40px;
+    width: 700px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+.element {
+    background-color: white;
+    border: solid 2px black;
+    background-position: center;
+    cursor: pointer;
+}
+.elO {
+    background-image: url("ximage.png");
+    background-repeat: no-repeat;
+}
+.elX {
+    background-image: url("oimage.png");
+    background-repeat: no-repeat;
+}
+.clearingButton {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    bottom: 100px;
+    transition: all 200ms;
+}
+.clearingButton:active {
+    background-color: rgba(5, 49, 5, 0.527);
+}
+.Generate {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    bottom: 40px;
+    transition: all 200ms;
+}
+.Generate:active {
+    background-color: rgba(5, 49, 5, 0.527);
+}
+#master {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    top: 40px;
+    left: 30px;
+    transition: all 200ms;
+}
+#stopPlaying {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    top: 100px;
+    left: 30px;
+    transition: all 200ms;
+}
+.scoresContainer {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    color: rgb(25, 26, 90);
+}
+.scoresContainerB {
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    color: rgb(25, 26, 90);
+}
+#masterr {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    top: 40px;
+    right: 30px;
+    transition: all 200ms;
+}
+.clearTheScore {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    bottom: 40px;
+    left: 30px;
+    transition: all 200ms;
+}
+.cap {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    bottom: 40px;
+    right: 30px;
+    transition: all 200ms;
+}

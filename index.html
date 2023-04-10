@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CaC</title>
+</head>
+<body>
+    <div id="container">
+        <div id="squareA" onclick="addA()"  class="element"></div>
+        <div id="squareB" onclick="addB()" class="element" ></div>
+        <div id="squareC" onclick="addC()" class="element"></div>
+        <div id="squareD" onclick="addD()" class="element"></div>
+        <div id="squareE" onclick="addE()" class="element"></div>
+        <div id="squareF" onclick="addF()" class="element"></div>
+        <div id="squareG" onclick="addG()" class="element"></div>
+        <div id="squareH" onclick="addH()" class="element"></div>
+        <div id="squareI" onclick="addI()" class="element"></div>
+    </div>
+
+    <button class="clearingButton" onclick="clearingTheBoard()">clear the board!</button>
+    <button id="Gene"  class="Generate" onclick="generateRandomElement()">Generate a move</button>
+    <button id="master" onclick="playMasterrr()">Play against master</button>
+    <div class="scoresContainer">
+    <p class="crossScore">cross: <span id="crossScore" class="crossScore">0</span></p>
+    <p class="circleScore">circle: <span id="circleScore" class="circleScore">0</span></p>
+    </div>
+    <button id="masterr" onclick="playMasterrr()">Play against master</button>
+    <div class="scoresContainerB">
+      <p class="crossScore"><span id="croossScoree" class="crossScore">0</span> :krzyzyk</p>
+      <p class="circleScore"><span id="circleScoree" class="circleScore">0</span> :kolko</p>
+      </div>
+      <button class="clearTheScore" onclick="clearScore()">Clear the score</button>
+      <button class="cap" onclick="clearScore()">Clear the score</button>
+    
+    <audio id="myAudio">
+        <source src="sound.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="drawSound">
+        <source src="drawSound.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="CrossWonSound">
+        <source src="croSound.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="CirclesWonSound">
+        <source src="circSound.mp3" type="audio/mpeg">
+      </audio>
+
+    <script src="app.js"></script>
+    <script src="appC.js"></script>
+    
+</body>
+</html>
